@@ -23,7 +23,7 @@ Apart from mitigating update requests' latency, other in-network compute can als
 > Artifact available at GitHub      
 
 > [Cross-Failure Bug Detection in Persistent Memory Programs](https://www.cs.virginia.edu/~smk9u/liu_xfd_asplos2020.pdf)        
-> Sihang Liu, **Korakit Seemakhupt**, Yizhou Wei,Thomas Wenisch, Aasheesh Kolli, and Samira Khan        
+> Sihang Liu, **Korakit Seemakhupt**, Yizhou Wei, Thomas Wenisch, Aasheesh Kolli, and Samira Khan        
 > International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
 > Lausanne, Switzerland, March 2020.        
 > [[pdf]](https://www.cs.virginia.edu/~smk9u/liu_xfd_asplos2020.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/Liu_XFD_ASPLOS20_slides.pptx), [[Summary]](https://www.cs.virginia.edu/~smk9u/Liu_XFD_summary.pdf), [[Video]](https://www.youtube.com/watch?v=SgUeTKfHJDk), [[Source code]](https://xfdetector.persistentmemory.org/)       
