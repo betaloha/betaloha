@@ -1,5 +1,5 @@
 # Korakit Seemakhupt
-
+![test](Untitled.png)
 I am a third-year Ph.D. student in the Department of Computer Science at the University of Virginia. I am advised by Prof. Samira Khan. My research focuses on computer network, storage system and real system prototyping of emerging technologies. Before that, I worked with Lumio 3D Co., Ltd. I received my B.Eng and M.Eng degrees from Chulalongkorn University in 2014 and 2016 respectively.
 
 Contact Email: korakit@virginia.edu
