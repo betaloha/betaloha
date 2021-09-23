@@ -10,10 +10,25 @@ Contact Email: korakit@virginia.edu
 ### Supports for in-network data persistence at datacenter scale
 Recent adoption of fast local storage system such as all-flash storage and persistent memory drastically reduces the latency of accessing data locally. However, because application logic processing and storage backends are placed in separate server racks in typical datacenter deployment, the latency of network including network stack processing becomes a bottleneck. While there are prior works that mitigate the latency of the network stack such as using RDMA as a transport protocol or optimizing RPC processing, server's processing is still a major part of the round-trip latency. With such observation, our research, PMNet adds persistent memory to persist update requests in network devices to provide **in-network data persistence** and move the server off the critical path of update requests while tackling challenges in common datacenter such as packet loss, hardware failure and multi-path problems.     
 
-### Integration of in-network data persistence with in-network compute
-Apart from mitigating update requests' latency, other in-network compute can also exploit **in-network data persistence**. In-network compute using traditional programmable network switch offers line-rate computing performance but lacks large memory support. Therefore, adding more memory capacity can greatly expand the capability of such system. In addition, persistent memory also offers data persistence; the data stored in persistent memory is not lost when failure such as power loss or software bug happens. Thus, in-network compute applcation can avoid frequent checkpointing which is expensive. Our research focuses on how to provide a common interface to allow other in-network compute to exploit **in-network data persistence**.      
+### Integration of in-network computing with edge devices
+Edge devices such as IoT sensors and Nano drones often have limited computing capability in terms of processing throughput, power and memory capacity. Traditionally, in order to perform intelligent task, those edge devices must send data back to be processed on the server--this increases the latency of the task due to long network latency and limited bandwidth. However, we observe that not all edge devices are performing computing tasks at the same time. Our research focus on cooperating among multiple edge devices to utilize unused processing power instead of sending data back to the server.
+
+
 
 ## Publications
+
+
+> Write Prediction for Persistent Memory Systems       
+> Suyash Mahar, Sihang Liu, **Korakit Seemakhupt**, Vinson Young, and Samira Khan         
+> International Symposium on Parallel Architectures and Compilation Techniques (PACT)          
+> Virtual, Sep 2021.       
+
+> [PMNet: In-Network Data Persistence](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf)   
+> **Korakit Seemakhupt**, Sihang Liu, Yasas Senevirathne, Muhammad Shahbaz and Samira Khan    
+> International Symposium on Computer Architecture (ISCA)   
+> Virtual, June 2021.       
+> [[pdf]](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA21_Full.pptx), [[Video]](https://youtu.be/R72gRpDcNBw), [[Source code]](http://pmnet.persistentmemory.org/)       
+> Artifact available at GitHub      
 
 > [PMNet: In-Network Data Persistence](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf)   
 > **Korakit Seemakhupt**, Sihang Liu, Yasas Senevirathne, Muhammad Shahbaz and Samira Khan    
