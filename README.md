@@ -21,14 +21,7 @@ Edge devices such as IoT sensors and Nano drones often have limited computing ca
 > Write Prediction for Persistent Memory Systems       
 > Suyash Mahar, Sihang Liu, **Korakit Seemakhupt**, Vinson Young, and Samira Khan         
 > International Symposium on Parallel Architectures and Compilation Techniques (PACT)          
-> Virtual, Sep 2021.       
-
-> [PMNet: In-Network Data Persistence](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf)   
-> **Korakit Seemakhupt**, Sihang Liu, Yasas Senevirathne, Muhammad Shahbaz and Samira Khan    
-> International Symposium on Computer Architecture (ISCA)   
-> Virtual, June 2021.       
-> [[pdf]](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA21_Full.pptx), [[Video]](https://youtu.be/R72gRpDcNBw), [[Source code]](http://pmnet.persistentmemory.org/)       
-> Artifact available at GitHub      
+> Virtual, Sep 2021.        
 
 > [PMNet: In-Network Data Persistence](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf)   
 > **Korakit Seemakhupt**, Sihang Liu, Yasas Senevirathne, Muhammad Shahbaz and Samira Khan    
