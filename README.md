@@ -7,12 +7,17 @@ I am a fourth-year Ph.D. student in the Department of Computer Science at the Un
 Contact Email: korakit@virginia.edu
 
 ## Research
-### Supports for in-network data persistence at datacenter scale
-Recent adoption of fast local storage system such as all-flash storage and persistent memory drastically reduces the latency of accessing data locally. However, because application logic processing and storage backends are placed in separate server racks in typical datacenter deployment, the latency of network including network stack processing becomes a bottleneck. While there are prior works that mitigate the latency of the network stack such as using RDMA as a transport protocol or optimizing RPC processing, server's processing is still a major part of the round-trip latency. With such observation, our research, PMNet adds persistent memory to persist update requests in network devices to provide **in-network data persistence** and move the server off the critical path of update requests while tackling challenges in common datacenter such as packet loss, hardware failure and multi-path problems.     
 
-### Integration of in-network computing with edge devices
-Edge devices such as IoT sensors and Nano drones often have limited computing capability in terms of processing throughput, power and memory capacity. Traditionally, in order to perform intelligent task, those edge devices must send data back to be processed on the server--this increases the latency of the task due to long network latency and limited bandwidth. However, we observe that not all edge devices are performing computing tasks at the same time. Our research focus on cooperating among multiple edge devices to utilize unused processing power instead of sending data back to the server.
 
+### Supports for in-network data persistence at datacenter scale [ISCA'21]
+The recent adoption of fast local storage systems such as persistent memory drastically reduces the latency of accessing data locally. However, the latency between application logic processing and storage backends, which are typically placed in separate server racks in a typical data center, is significant. While there are attempts that mitigate the latency of the network stack such as optimizing RPC processing or move the processing of stateless read requests into network devices, server processing is still a major part of the round-trip latency. With such observation, our research, PMNet adds persistent memory to persist update requests in network devices to provide \textbf{in-network data persistence} and move the server off the critical path of update requests while tackling challenges in common datacenter such as packet loss, hardware failure, and multi-path problems.
+
+
+### Recovery testing of persistent memory program [ASPLOS'20]
+Data recoverability of PM programs depends on the correct behavior of PM programs both post-failure and post-failure. Specifically, the post-failure (recovery) program can only access a crash-consistent copy of data created by a pre-failure program. In this research, we develop a run-time software tool that performs automated testing of all potential failure points in the pre-execution program and detects an associate access violation of the post-failure program. We evaluate our tool on a real system using real workloads based on PMDK's libpmemobj.
+
+### Optimization of persistent memory's backend memory operations [ISCA'19]
+To effectively utilize emerging persistent memory, the PM system must provide longevity, security, and data integrity. However, operations that provide those supports increase the latency of write access, which cannot be moved off the critical path. Our observations are 1. backend memory operations can be broken down into small sub-operations, and those sub-operations can be parallelized and 2. each backend memory operation only depends on the address and data of write access. Thus, it is possible to pre-execute the backend memory operations. Our researches focus on two approaches for the pre-execution of backend memory operations: 1. software-based pre-execution using LLVM compiler pass and 2. transparent hardware-based approach using execution contexts in the processor.
 
 
 ## Publications
