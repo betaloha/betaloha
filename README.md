@@ -62,5 +62,5 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 ### Chulalongkorn University, Research Assistant (2015-2016)
 - Design and implement a printhead controller for an inkjet 3D printer
 
-### Design Gateway Co., Ltd. Intern (2013)
+### Design Gateway Co., Ltd. (Intern, 2013)
 - Integrate and test Ethernet, SATA and HDMI IP on an FPGA
