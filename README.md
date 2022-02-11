@@ -23,7 +23,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 ## Publications
 
 
-> [Write Prediction for Persistent Memory Systems](https://github.com/betaloha/betaloha/blob/main/PMWeaver_pact21.pdf)       
+> [Write Prediction for Persistent Memory Systems](https://www.cs.virginia.edu/~smk9u/PMWeaver_pact21.pdf)       
 > Suyash Mahar, Sihang Liu, **Korakit Seemakhupt**, Vinson Young, and Samira Khan         
 > International Symposium on Parallel Architectures and Compilation Techniques (PACT)          
 > Virtual, Sep 2021.        
