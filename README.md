@@ -54,6 +54,9 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 ## Work Experiences
 
+### Google LLC, Research Intern (Jan-April 2022)
+- Optimizing RPC systems
+
 ### Lumio 3D Co., Ltd. (2016-2018)
 - System software and device driver on Nvidia Tegra K1 SoC based system
 - Image processing software
@@ -62,5 +65,5 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 ### Chulalongkorn University, Research Assistant (2015-2016)
 - Design and implement a printhead controller for an inkjet 3D printer
 
-### Design Gateway Co., Ltd. (Intern, 2013)
+### Design Gateway Co., Ltd., Intern (2013)
 - Integrate and test Ethernet, SATA and HDMI IP on an FPGA
