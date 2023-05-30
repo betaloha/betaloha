@@ -6,7 +6,7 @@ I am a fifth-year Ph.D. student in the Department of Computer Science at the Uni
 
 ## Research
 
-### Acceleration of crash consistency support for persistent memory with Near-data processing [To appear at Eurosys'23]
+### Acceleration of crash consistency support for persistent memory with Near-data processing [Eurosys'23]
 To avoid the overhead from software context switching and redirection, PM programs usually access the memory directly--bypassing the file system. Consequently, PM programs are responsible for providing crash consistency which increases the overhead of program execution. One of the solutions is to offload crash consistency processing to a processor close to the PM such as a PM controller in the Optane DCPMM. However, there is a wide array of crash consistency techniques, and crash consistency support execution is serialized with the execution of the program's logic. Thus, the overhead from naively offloading crash consistency support to dedicated hardware offsets the performance benefits. In this research, we have made two important observations: 1. seemingly different crash consistency support techniques, share common sub-operations, and 2. the execution of crash consistency support operations and PM program's logic can be parallelized, but they need to be committed in-order. We evaluate the whole system on real hardware using our FPGA evaluation platform.
 
 ### Supports for in-network data persistence at datacenter scale [ISCA'21]
@@ -22,6 +22,12 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 ## Publications
 
+> [NearPM: A Near-Data Processing System for Storage-Class Applications](https://dl.acm.org/doi/10.1145/3552326.3587456)       
+> Yasas Senevirathne, **Korakit Seemakhupt**, Sihang Liu, and Samira Khan         
+> Eighteenth European Conference on Computer Systems (EuroSys '23)          
+> Rome, Italy, May 2023.        
+> [[pdf]](https://dl.acm.org/doi/10.1145/3552326.3587456), [[Source Code]](https://github.com/Systems-ShiftLab/NearPMHW)
+> Artifact Available
 
 > [Write Prediction for Persistent Memory Systems](https://www.cs.virginia.edu/~smk9u/PMWeaver_pact21.pdf)       
 > Suyash Mahar, Sihang Liu, **Korakit Seemakhupt**, Vinson Young, and Samira Khan         
@@ -54,7 +60,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 ## Work Experiences
 
-### Google LLC, Research Intern/Student Researcher (2022)
+### Google LLC, Research Intern/Student Researcher (2022, 2023)
 - Optimizing RPC systems
 
 ### Lumio 3D Co., Ltd. (2016-2018)
