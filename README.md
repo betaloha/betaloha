@@ -2,7 +2,7 @@
 <img src="korakit_small.JPG"
      alt="Korakit's photo"
      align="right"/>      
-I am a fifth-year Ph.D. student in the Department of Computer Science at the University of Virginia. I am advised by Prof. Samira Khan. My research focuses on computer network, storage system and real system prototyping of emerging technologies. Before that, I worked with Lumio 3D Co., Ltd. I received my B.Eng and M.Eng degrees from Chulalongkorn University in 2014 and 2016 respectively.
+I am a fifth-year Ph.D. student in the Department of Computer Science at the University of Virginia. I am advised by Prof. Samira Khan. My research focuses on computer network, storage system, real system prototyping of emerging technologies and studing of Remote Procedure Calls in a large scale system. Before that, I worked with Lumio 3D Co., Ltd. I received my B.Eng and M.Eng degrees from Chulalongkorn University in 2014 and 2016 respectively.
 
 ## Research
 
@@ -21,6 +21,11 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 
 ## Publications
+
+> [vPIM: Efficient Virtual Address Translation for Scalable Processing in-Memory Architectures](https://60dac.conference-program.com/presentation/?id=RESEARCH805&sess=sess158)       
+> Amel Fatima, Sihang Liu, **Korakit Seemakhupt**, Rachata Ausavarungnirun, Samira Khan         
+> Design Automation Conference (DAC)          
+> San Francisco, CA, July 2023.        
 
 > [NearPM: A Near-Data Processing System for Storage-Class Applications](https://dl.acm.org/doi/10.1145/3552326.3587456)       
 > Yasas Senevirathne, **Korakit Seemakhupt**, Sihang Liu, and Samira Khan         
@@ -53,7 +58,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 > [Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19.pdf)   
 > Sihang Liu, **Korakit Seemakhupt**, Gennady Pekhimenko, Aasheesh Kolli, and Samira Khan    
 > International Symposium on Computer Architecture (ISCA)   
-> Phoenix, USA, June 2019.    
+> Phoenix, AZ, June 2019.    
 > [[pdf]](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19_slides.pptx), [[Lightning Slides]](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19_lightning_slides.pptx), [[Video]](https://www.youtube.com/watch?v=kJdgvhLur3M&t=)      
 > MICRO TOP PICKS 2020 Honorable Mention        
 
