@@ -65,7 +65,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 ## Work Experiences
 
-### Google LLC, Research Intern/Student Researcher (2022, 2023)
+### [System Research@Google](https://techsysinfra.google/research/), Research Intern/Student Researcher (2022, 2023)
 - RPC Characterization in Google's fleet
 
 ### Lumio 3D Co., Ltd. (2016-2018)
