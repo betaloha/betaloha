@@ -68,7 +68,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 ### [System Research@Google](https://techsysinfra.google/research/), Research Intern/Student Researcher (2022, 2023)
 - RPC Characterization in Google's fleet
 
-### Lumio 3D Co., Ltd. (2016-2018)
+### [Lumio 3D Co., Ltd.](https://lumio3d.com/en/), System Engineer (2016-2018)
 - System software and device driver on Nvidia Tegra K1 SoC based system
 - Image processing software
 - Multi-camera control software
