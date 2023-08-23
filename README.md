@@ -22,8 +22,13 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 ## Publications
 
+> A Cloud-Scale Characterization of Remote Procedure Calls                 
+> **Korakit Seemakhupt**, Brent E. Stephens, Samira Khan, Sihang Liu, Hassan Wassel, Soheil Hassas Yeganeh, Alex C. Snoeren, Arvind Krishnamurthy, David Culler and Henry M. Levy      
+> To appear at The 29th ACM Symposium on Operating Systems Principles (SOSP'23)          
+> Koblenz, Germany, October 2023.        
+
 > [vPIM: Efficient Virtual Address Translation for Scalable Processing in-Memory Architectures](https://60dac.conference-program.com/presentation/?id=RESEARCH805&sess=sess158)       
-> Amel Fatima, Sihang Liu, **Korakit Seemakhupt**, Rachata Ausavarungnirun, Samira Khan         
+> Amel Fatima, Sihang Liu, **Korakit Seemakhupt**, Rachata Ausavarungnirun and Samira Khan         
 > Design Automation Conference (DAC)          
 > San Francisco, CA, July 2023.        
 
