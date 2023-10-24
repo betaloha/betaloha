@@ -22,7 +22,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 ## Publications
 
-> A Cloud-Scale Characterization of Remote Procedure Calls                 
+> [A Cloud-Scale Characterization of Remote Procedure Calls](https://dl.acm.org/doi/pdf/10.1145/3600006.3613156)                 
 > **Korakit Seemakhupt**, Brent E. Stephens, Samira Khan, Sihang Liu, Hassan Wassel, Soheil Hassas Yeganeh, Alex C. Snoeren, Arvind Krishnamurthy, David Culler and Henry M. Levy      
 > To appear at The 29th ACM Symposium on Operating Systems Principles (SOSP'23)          
 > Koblenz, Germany, October 2023.        
