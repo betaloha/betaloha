@@ -26,7 +26,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 > **Korakit Seemakhupt**, Brent E. Stephens, Samira Khan, Sihang Liu, Hassan Wassel, Soheil Hassas Yeganeh, Alex C. Snoeren, Arvind Krishnamurthy, David Culler and Henry M. Levy      
 > The 29th ACM Symposium on Operating Systems Principles (SOSP'23)          
 > Koblenz, Germany, October 2023.        
-> [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3600006.3613156)
+> [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3600006.3613156), [[Slides]](https://github.com/betaloha/betaloha/blob/main/Cloud_scale_RPC_characterization_SOSP23.pdf)
 
 > [vPIM: Efficient Virtual Address Translation for Scalable Processing in-Memory Architectures](https://60dac.conference-program.com/presentation/?id=RESEARCH805&sess=sess158)       
 > Amel Fatima, Sihang Liu, **Korakit Seemakhupt**, Rachata Ausavarungnirun and Samira Khan         
