@@ -35,7 +35,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 > [NearPM: A Near-Data Processing System for Storage-Class Applications](https://dl.acm.org/doi/10.1145/3552326.3587456)       
 > Yasas Senevirathne, **Korakit Seemakhupt**, Sihang Liu, and Samira Khan         
-> Eighteenth European Conference on Computer Systems (EuroSys '23)          
+> Eighteenth European Conference on Computer Systems (EuroSys'23)          
 > Rome, Italy, May 2023.        
 > [[pdf]](https://dl.acm.org/doi/10.1145/3552326.3587456), [[Source Code]](https://github.com/Systems-ShiftLab/NearPMHW)
 > Artifact Available
@@ -49,21 +49,21 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 > [PMNet: In-Network Data Persistence](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf)   
 > **Korakit Seemakhupt**, Sihang Liu, Yasas Senevirathne, Muhammad Shahbaz and Samira Khan    
-> International Symposium on Computer Architecture (ISCA)   
+> International Symposium on Computer Architecture (ISCA'21)   
 > Virtual, June 2021.       
 > [[pdf]](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA2021.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/PMNet_ISCA21_Full.pptx), [[Video]](https://youtu.be/R72gRpDcNBw), [[Source code]](http://pmnet.persistentmemory.org/)       
 > Artifact available at GitHub      
 
 > [Cross-Failure Bug Detection in Persistent Memory Programs](https://www.cs.virginia.edu/~smk9u/liu_xfd_asplos2020.pdf)        
 > Sihang Liu, **Korakit Seemakhupt**, Yizhou Wei, Thomas Wenisch, Aasheesh Kolli, and Samira Khan        
-> International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
+> International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS'20)        
 > Lausanne, Switzerland, March 2020.        
 > [[pdf]](https://www.cs.virginia.edu/~smk9u/liu_xfd_asplos2020.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/Liu_XFD_ASPLOS20_slides.pptx), [[Summary]](https://www.cs.virginia.edu/~smk9u/Liu_XFD_summary.pdf), [[Video]](https://www.youtube.com/watch?v=SgUeTKfHJDk), [[Source code]](https://xfdetector.persistentmemory.org/)       
 > Artifact Available and Artifact Evaluated, Functional, Reproduced     
 
 > [Janus: Optimizing Memory and Storage Support for Non-Volatile Memory Systems](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19.pdf)   
 > Sihang Liu, **Korakit Seemakhupt**, Gennady Pekhimenko, Aasheesh Kolli, and Samira Khan    
-> International Symposium on Computer Architecture (ISCA)   
+> International Symposium on Computer Architecture (ISCA'19)   
 > Phoenix, AZ, June 2019.    
 > [[pdf]](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19.pdf), [[Slides]](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19_slides.pptx), [[Lightning Slides]](https://www.cs.virginia.edu/~smk9u/Liu_Janus_ISCA19_lightning_slides.pptx), [[Video]](https://www.youtube.com/watch?v=kJdgvhLur3M&t=)      
 > MICRO TOP PICKS 2020 Honorable Mention        
