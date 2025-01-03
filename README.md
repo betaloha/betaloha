@@ -45,7 +45,8 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 
 > [EdgeRAG: Online-Indexed RAG for Edge Devices](https://arxiv.org/abs/2412.21023)                 
 > **Korakit Seemakhupt**, Sihang Liu, Samira Khan      
-> Arxiv          
+> Arxiv
+> December 2024          
 > [[pdf]](https://arxiv.org/abs/2412.21023)
 
 > [A Cloud-Scale Characterization of Remote Procedure Calls](https://dl.acm.org/doi/pdf/10.1145/3600006.3613156)                 
