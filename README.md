@@ -8,6 +8,12 @@ I am planning to graduate on May 2025 and I am on the job market for a position 
 
 ## Research
 
+### EdgeRAG: Online-Indexed RAG for Edge Devices [Under submission]
+Deploying Retrieval Augmented Generation (RAG) on resource-constrained edge devices is challenging due to limited memory and processing power.
+In this work, we propose \xname{} which addresses the memory constraint by pruning embeddings within clusters and generating embeddings on-demand during retrieval. To avoid the latency of generating embeddings for large tail clusters, \xname{} pre-computes and stores embeddings for these clusters, while adaptively caching remaining embeddings to minimize redundant computations and further optimize latency.
+
+**Enable RAG with embedding database 2.31X the memory capacity with TTFT ~1 second and similar generation quality**
+
 ### Characterization of Datacenter Communication [SOSP'23]
 Remote Procedure Call (RPC) is one of the key enabler of modern scale-out cloud applications. RPC provides location-independent communication and hides the myriad of cloud communication complexities and requirements within the RPC stack. Understanding RPCs is thus one key to understanding the behavior of cloud applications. In this work, to the best of our knowledge, the first large-scale fleet-wide study of RPCs. Our study is conducted at Google, where we measured the infrastructure supporting Google’s user-facing, billion-user web services, such as Google Search, Gmail, Maps, and YouTube, and the information and data management systems that support them. To carry out the study, we examined over 10,000 different RPC methods sampled from over one billion traces, along with statistics collected every 30 minutes over a period of nearly two years. Among other things, we consider the volume, throughput and growth rate of RPCs in the datacenter, the latency of RPCs and their components (the “RPC latency tax”), and the structure of RPC call chains.
 
@@ -23,7 +29,7 @@ In this research, we identified two key insights: 1) different crash consistency
 Recent advancements in storage technologies like persistent memory have significantly reduced local data access latency. However, the network latency between application servers and remote storage backends remains a bottleneck. While techniques like RPC optimization and network device offloading can mitigate network stack latency, server processing still contributes significantly to overall latency.
 To address this, our research, PMNet, introduces in-network data persistence by leveraging persistent memory in network devices. This approach removes the server from the critical path of update requests, thereby improving performance. PMNet also addresses common datacenter challenges like packet loss, hardware failures, and multi-path issues.
 
-**Key Results: 1.22-1.35X end-to-end speed up for storage applications on FPGA based P4 switch**
+**Key Results: 1.22-1.35X end-to-end speed up for network storage applications on FPGA based P4 switch**
 
 ### Recovery testing of persistent memory program [ASPLOS'20]
 Data recoverability of PM programs depends on the correct behavior of PM programs both post-failure and post-failure. Specifically, the post-failure (recovery) program can only access a crash-consistent copy of data created by a pre-failure program. In this research, we develop a run-time software tool that performs automated testing of all potential failure points in the pre-execution program and detects an associate access violation of the post-failure program. We evaluate our tool on a real system using real workloads based on PMDK's libpmemobj.
@@ -33,9 +39,14 @@ Data recoverability of PM programs depends on the correct behavior of PM program
 ### Optimization of persistent memory's backend memory operations [ISCA'19]
 To effectively utilize emerging persistent memory, the PM system must provide longevity, security, and data integrity. However, operations that provide those supports increase the latency of write access, which cannot be moved off the critical path. Our observations are 1. backend memory operations can be broken down into small sub-operations, and those sub-operations can be parallelized and 2. each backend memory operation only depends on the address and data of write access. Thus, it is possible to pre-execute the backend memory operations. Our researches focus on two approaches for the pre-execution of backend memory operations: 1. software-based pre-execution using LLVM compiler pass and 2. transparent hardware-based approach using execution contexts in the processor.
 
-**Key Results: Improve storage application 2.35 $\times$ with manual changes and 2.00X with LLVM optimization**
+**Key Results: Improve Persistent-memory based storage application 2.35 $\times$ with manual changes and 2.00X with LLVM optimization**
 
 ## Publications
+
+> [EdgeRAG: Online-Indexed RAG for Edge Devices](https://arxiv.org/abs/2412.21023)                 
+> **Korakit Seemakhupt**, Sihang Liu, Samira Khan      
+> Arxiv          
+> [[pdf]](https://arxiv.org/abs/2412.21023)
 
 > [A Cloud-Scale Characterization of Remote Procedure Calls](https://dl.acm.org/doi/pdf/10.1145/3600006.3613156)                 
 > **Korakit Seemakhupt**, Brent E. Stephens, Samira Khan, Sihang Liu, Hassan Wassel, Soheil Hassas Yeganeh, Alex C. Snoeren, Arvind Krishnamurthy, David Culler and Henry M. Levy      
