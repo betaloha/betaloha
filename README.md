@@ -8,9 +8,9 @@ I am planning to graduate on May 2025 and I am on the job market for a position 
 
 ## Research
 
-### EdgeRAG: Online-Indexed RAG for Edge Devices [Under submission]
+### Memory Efficient RAG for Edge Devices [Under submission]
 Deploying Retrieval Augmented Generation (RAG) on resource-constrained edge devices is challenging due to limited memory and processing power.
-In this work, we propose \xname{} which addresses the memory constraint by pruning embeddings within clusters and generating embeddings on-demand during retrieval. To avoid the latency of generating embeddings for large tail clusters, \xname{} pre-computes and stores embeddings for these clusters, while adaptively caching remaining embeddings to minimize redundant computations and further optimize latency.
+In this work, we propose addressing the memory constraint by pruning embeddings within clusters and generating embeddings on-demand during retrieval. To avoid the latency of generating embeddings for large tail clusters, the system pre-computes and stores embeddings for these clusters, while adaptively caching remaining embeddings to minimize redundant computations and further optimize latency.
 
 **Enable RAG with embedding database 2.31X the memory capacity with TTFT ~1 second and similar generation quality**
 
