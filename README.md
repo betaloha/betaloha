@@ -4,11 +4,11 @@
      align="right"/>      
 I am a Ph.D. student in the Department of Computer Science at the University of Virginia. I am advised by Prof. Samira Khan. My research focuses on computer network, storage system, real system prototyping of emerging technologies and studing of Remote Procedure Calls in a large scale system. Before that, I worked with Lumio 3D Co., Ltd. I received my B.Eng and M.Eng degrees from Chulalongkorn University in 2014 and 2016 respectively.
 
-I am graduating on May 2025 and I am current on the job market for a position in the industry.
+I am graduating in May 2025 and I will be joining Google in June 2025.
 
 ## Research
 
-### Memory Efficient RAG for Edge Devices [Under submission]
+### Memory Efficient RAG for Edge Devices
 Deploying Retrieval Augmented Generation (RAG) on resource-constrained edge devices is challenging due to limited memory and processing power.
 In this work, we propose addressing the memory constraint by pruning embeddings within clusters and generating embeddings on-demand during retrieval. To avoid the latency of generating embeddings for large tail clusters, the system pre-computes and stores embeddings for these clusters, while adaptively caching remaining embeddings to minimize redundant computations and further optimize latency.
 
