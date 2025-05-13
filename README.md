@@ -48,6 +48,7 @@ To effectively utilize emerging persistent memory, the PM system must provide lo
 > Arxiv
 > December 2024          
 > [[pdf]](https://arxiv.org/abs/2412.21023)
+> [[Source Code]](https://github.com/betaloha/edgerag_release)
 
 > [A Cloud-Scale Characterization of Remote Procedure Calls](https://dl.acm.org/doi/pdf/10.1145/3600006.3613156)                 
 > **Korakit Seemakhupt**, Brent E. Stephens, Samira Khan, Sihang Liu, Hassan Wassel, Soheil Hassas Yeganeh, Alex C. Snoeren, Arvind Krishnamurthy, David Culler and Henry M. Levy      
